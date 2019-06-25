@@ -1,0 +1,11 @@
+The following Database tables from the static data export are required:
+
+invGroups.sql
+invTypes.sql
+dgmTypeEffects.sql
+
+You can get them here:
+
+https://www.fuzzwork.co.uk/dump/latest/
+
+---

@@ -1,0 +1,36 @@
+{
+    "name": "snitchashor/spacemail",
+    "description": "",
+    "keywords": [
+        "EVE Online",
+        "SSO",
+        "swagger",
+        "ESI",
+        "php",
+        "sdk",
+        "api"
+    ],
+    "homepage": "https://spacemail.xyz",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Snitch Ashor",
+            "homepage": "https://bitbucket.org/snitchashor"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^6.2",
+        "web-token/jwt-core": "^1.2",
+        "web-token/jwt-checker": "^1.2",
+        "web-token/jwt-signature": "^1.2",
+        "web-token/jwt-signature-algorithm-rsa": "^1.2",
+        "rtheunissen/guzzle-rate-limiter": "^2.0",
+        "kevinrob/guzzle-cache-middleware": "^3.2",
+
+        "doctrine/cache": "^1.8"
+    }
+}

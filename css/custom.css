@@ -1,0 +1,346 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html, body {
+  height: 100%;
+}
+body {
+  background: url("../img/bg.jpg") black no-repeat top center;
+  background-attachment: fixed;
+  /* Margin bottom by footer height */
+  display: table; width: 100%; height: 100%;
+  padding-top: 50px;
+}
+.footer {
+  display: table-row;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 1px;
+  /*background-color: #111111;*/
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+footer .container .text-muted {
+  font-size: 10px;
+  margin: 10px 0;
+}
+
+.tiny {
+  font-size: 10px;
+}
+
+@media (min-width: 768px) {
+  .panel {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    /*background-color: #111111;*/
+  }
+  .panel, .navbar-inverse {
+    box-shadow: 0 0 15px black;
+  }
+}
+
+@media (min-width: 1300px) {
+  #logoimg {
+    position: absolute;
+    left: -100px;
+    top: 5px;
+  }
+}
+
+@media (max-width: 1299px) {
+  #logoimg {
+    position: absolute;
+    left: -20px;
+    top: 5px;
+  }
+  #logoimg img{
+    height: 50px;
+  }
+  .nav > li > a {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+@media (max-width: 767px) {
+  #logoimg {
+    left: 0px;
+    top: 2px;
+  }
+  #logoimg img{
+    height: 40px;
+  }
+  .navbar-header {padding: 0; margin: 0;}
+  #maincontainer {padding: 0;}
+  .panel {box-shadow: none; margin-bottom: 0; border-radius: 0;}
+  .panel-default .panel-body {padding-left: 0 !important; padding-right: 0 !important;}
+  .panel-heading { border-top-right-radius: 0px; border-top-left-radius: 0px;}
+  a > .fa {font-size: 18px !important;}
+  .row {margin-left: 0 !important; margin-right: 0 !important; }
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {padding-left: 0 !important; padding-right: 0 !important;}
+}
+
+.navbar-fixed-top .navbar-collapse {
+  max-height: 500px;
+}
+
+.navbar-brand {
+  padding-left: 70px;
+}
+
+.navbar-nav {
+  float: none;
+}
+
+.nav > li > a > img {
+  margin: -16px 0px -16px 10px;
+}
+
+.token {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.badge-unread {
+  position: absolute;
+  float: right;
+  font-size: 9px;
+  margin-top: -3px;
+}
+
+.col-form-label {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  margin-bottom: 0;
+}
+
+.table > thead > tr > th.mod-header {
+  padding: 5px;
+  width: 22px;
+}
+
+.table > tbody > tr > td {
+  vertical-align: middle;
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+img.mod-column {
+  height: 20px;
+}
+
+.cal-row {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2px;
+}
+
+.cal-cell {
+  display: inline-block;
+  position: relative;
+  width: 13%;
+  box-shadow: none !important;
+  margin: 2px;
+  vertical-align: top;
+}
+
+.cal-cell .panel-heading {
+  padding: 2px 3px;
+}
+
+.cal-cell .panel-body {
+  min-height: 50px;
+  padding: 4px;
+}
+
+.cal-event {
+  float: left;
+}
+
+a.cal-event > .glyphicon {
+  margin-right: -5px;
+}
+
+@media (max-width: 767px) {
+  .cal-row {padding: 0;}
+  .cal-cell{margin: 1px 0; width: 14.2%;}
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+}
+
+.center-block {
+  float: none !important
+}
+
+.carousel-inner .carousel-img {
+  box-shadow: 0 0 15px black;
+}
+
+.carousel-inner .item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.carousel-caption {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.custom-editable {
+  border-bottom: none;
+  color: #888888;
+  font-style: italic;
+}
+
+table#apptable.dataTable.table-condensed .sorting::after, 
+table#apptable.dataTable.table-condensed .sorting_asc::after, 
+table#apptable.dataTable.table-condensed .sorting_desc::after {
+  top: initial;
+  bottom: 4px;
+}
+
+table.jdatatable.dataTable.table-condensed .sorting::after,
+table.jdatatable.dataTable.table-condensed .sorting_asc::after,
+table.jdatatable.dataTable.table-condensed .sorting_desc::after {
+  top: initial;
+  bottom: 4px;
+}
+
+
+.num-col {
+  text-align: right;
+}
+
+.collapse-toggle:after {
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    font-size: 9pt;
+    margin-left: 5px;
+}
+.collapse-toggle.collapsed:after {
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+}
+
+.btn-skills {
+  padding: 0;
+}
+
+.skill-block {
+  height: 8px;
+  width: 12px;
+  display: inline-block;
+  margin: 0px 1px;
+  top: -5px;
+  position: relative;
+  font-size: 1px;
+}
+
+.skill-level {
+  padding: 0px 1px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.level-0 {
+  display: none;
+}
+
+.flashy {
+  -webkit-animation: flashing 2s infinite linear;
+  -moz-animation: flashing 2s infinite linear;
+  -o-animation: flashing 2s infinite linear;
+  animation: flashing 2s infinite linear;
+}
+
+@-webkit-keyframes flashing {
+    0%   {color: #2a9fd6;}
+   20%   {color: #2a9fd6;}
+   50%   {color: #ffffff;}
+   70%   {color: #2a9fd6;}
+  100%   {color: #2a9fd6;}
+}
+
+@-moz-keyframes flashing {
+    0%   {color: #2a9fd6;}
+   20%   {color: #2a9fd6;}
+   50%   {color: #ffffff;}
+   70%   {color: #2a9fd6;}
+  100%   {color: #2a9fd6;}
+}
+
+@keyframes flashing {
+    0%   {color: #2a9fd6;}
+   20%   {color: #2a9fd6;}
+   50%   {color: #ffffff;}
+   70%   {color: #2a9fd6;}
+  100%   {color: #2a9fd6;}
+}
+
+@-o-keyframes flashing {
+    0%   {color: #2a9fd6;}
+   20%   {color: #2a9fd6;}
+   50%   {color: #ffffff;}
+   70%   {color: #2a9fd6;}
+  100%   {color: #2a9fd6;}
+}
+
+.totalsps {
+  position: relative;
+  top: 10px;
+  font-size: 75%
+}
+
+#zKillTable tr.error {
+  background-color: #220000;
+}
+
+#zKillTable tr.winwin {
+  background-color: #002200;
+}
+
+#zKillTable tr, #zKillTable td, #zKillTable th, #zKillTable a {
+  color: #aaaaaa;
+  text-decoration: none;
+}
+
+div .nomargin {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+img.lazy-24 {
+  height: 24px;
+  width: 24px;
+}
+
+@-moz-document url-prefix() {
+    img:-moz-loading {
+        visibility: hidden;
+    }
+}
+
+img:not([src]) {
+    visibility: hidden;
+}
+
+.small-dialog .modal-dialog {
+    width: 380px;
+}
+
+#context-menu ul li a {
+    cursor: pointer;
+}

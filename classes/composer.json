@@ -1,0 +1,5 @@
+{
+    "require": {
+        "kevinrob/guzzle-cache-middleware": "^3.1"
+    }
+}

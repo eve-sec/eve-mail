@@ -1,0 +1,4 @@
+table.dataTable tbody td.select-checkbox::before, table.dataTable tbody td.select-checkbox::after, table.dataTable tbody th.select-checkbox::before, table.dataTable tbody th.select-checkbox::after {top: auto; border-color: currentColor;}
+.m-left {margin-left: 12px}
+.wordbreak {word-break: break-all}
+table.dataTable tbody > tr.selected, table.dataTable tbody > tr > .selected {background-color: rgba(51, 153, 243, 0.2)};
